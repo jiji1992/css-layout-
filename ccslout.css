@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap');
+#logo {
+  width: 268px;
+  height: 68px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: rgb(171, 171, 171);
+  cursor: pointer;
+}
+.menu-item {
+  margin-right: 20px;
+}
+.drop-menu {
+  display: none;
+  width: 200px;
+  margin-left: -40px;
+  background-color: white;
+}
+.menu-item:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: rgb(171, 171, 171);
+}
+
+.drop-menu-item {
+  list-style: none;
+}
+.menu-item:hover {
+  color: rgb(0, 179, 155);
+}
+.drop-menu-item :hover {
+  color: rgb(0, 179, 155);
+}
+.first-section{
+    text-align: center;
+    padding-top: 100px;
+}
+.first-section h1{
+    font:400 34.5px "Work Sans", Arial, sans-serif;
+    color: rgb(0, 179, 155);
+}
+.second-section {
+    display: flex;
+    margin: 0px 200px;
+    justify-content: space-between;
+     }
+
+     .second-section p{ width: 48% ;
+        font: 400 16px "Roboto", Arial, sans-serif;
+        Line height: 28px;
+    color:rgb(116, 116, 116);
+    text-align: justify;
+    }
+
+    .third-section { display: flex;
+    justify-content: space-around;
+  margin: 0px 180px;
+  line-height: 26px;
+  font: 50 20px "Work Sans", Arial, sans-serif;
+color: white;
+}
+.third-section h3{font: 300 24px "Work Sans", Arial, sans-serif} 
+.third-section h1{font:400 26px "Work Sans", Arial, sans-serif;}
+
+.patients{ background-color: rgb(0, 204, 177);font: 50 20px "Work Sans", Arial, sans-serif;}
+.doctor{background-color: rgb(80, 143, 226);font: 50 20px "Work Sans", Arial, sans-serif;}
+.clinic{background-color: rgb(50, 60, 72);font: 50 20px "Work Sans", Arial, sans-serif;}
+.third-section div{width: 312px;
+margin: 20px 10px;
+border-radius: 15px;
+padding: 30px;
+}
+.third-section select{background: transparent;
+  font: 50 20px "Work Sans", Arial, sans-serif;
+  border: none;
+ margin-top: 10px;
+ color: white;
+ text-decoration: underline;
+}
+.third-section option{ color: black;
+
+}
+
+.fourth-section{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+.fourth-section h1{font: 300 26px "Work Sans", Arial, sans-serif;
+  width: 400px;
+  margin-right: 100px;
+color: rgb(0, 204, 177);}
+
+.logos i:hover{color: rgb(0, 204, 177);}
+.logos{color: #ABABAB;}
+.fifth-section{height: 600px;
+  width: 1350px;
+  background-color:rgb(212, 244, 245);
+background-image: url(https://www.docplanner.com/img/logo.png ); background-repeat: no-repeat;
+background-position-x: 50px;
+background-position-y: 260px;
+position: relative;
+}
+.fifth-section h1{font:300 34px "Work Sans", Arial, sans-serif;color: rgb(0, 179, 155); 
+  
+position: absolute;
+top: 30px; left: 200px;
+width: 400px;}
+
+.fifth-section p {
+  font: 400 14px "Roboto", Arial, sans-serif;
+  color: rgb(116, 116, 116);
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  width: 450px;
+}
+.table {
+  position: absolute;
+  right: 120px;
+  display: flex;
+  color: rgb(0, 179, 155);
+  font: 100 16px "Work Sans", Arial, sans-serif;
+  margin-top: 40px;
+}
+.column-one{display: flex;
+flex-direction: column;
+width: 220px;
+  margin-top: 30px;
+  margin-right: 20px;}
+
+.column-two{display: flex;
+  flex-direction: column;
+  width: 220px;}
+  
+  
+.column-one div {
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+  height: 220px;
+  padding: 15px;
+  margin-right: 20px;
+}
+.column-two div {
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+  height: 220px;
+  padding: 15px;
+}
+.column-two h6 {
+  color: rgb(116, 116, 116); font: 400 13px "Roboto", Arial, sans-serif;text-align: center;
+}
+.column-one h6 {
+  color: rgb(116, 116, 116);font: 400 13px "Roboto", Arial, sans-serif;text-align: center;
+}
+.column-one h3 { font: 300 24px "Work Sans", Arial, sans-serif;text-align: center;
+}
+.column-two h3 {font: 300 24px "Work Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.sex-section{ max-width:460px;margin:0 auto 67px;font-size:14px;text-align:center;
+  padding-left:20px;padding-right:20px;
+  width:870px;
+  margin-bottom:30px}
+  .sex-section h1{font:300 30px"Work Sans", Arial, sans-serif ; color: rgb(0, 179, 155);
+    line-height:28px}
+
+    .sex-section p{ font: 200 14px "Roboto", Arial, sans-serif;
+      color: rgb(116, 116, 116);}
+
+     
+.seven-section {margin:0 -10px;zoom:1;zoom:1; content:"";display:table; width:33.33%;
+   justify-content: space-around;
+  margin: 0px 180px;
+  line-height: 26px; color: white; }
+
+ 
+  .office--column-one{display: flex; margin-bottom: 20px;
+    border-radius: 5px;
+  }
+ .office--column-tow{display: flex;}
+ .office--column-tree{display: flex;}
+
+
+
+
+.office__desc{display: flex;}
+ .office__inner{background:#fff;border:1px solid rgba(0,0,0,.03);border-radius:6px; 
+  overflow:hidden;max-width:311px;z-index:2;position:relative;display:block;color:#747474;
+  box-shadow:0 5px 10px 0 transparent;transition:box-shadow .2s ease 0s;}
+
+  .office__image img{display:block;margin: auto; 
+   }
+  .office__desc{font-size:18PX;font-weight:400;line-height:27PX;padding:18PX;
+    font:400 18px "Roboto", Arial, sans-serif; color:rgb(116, 116, 116);}
+    .office__inner:hover{text-decoration:none; box-shadow:0 20px 50px 0 rgba(0,0,0,.13);}
+  
+  .btn--small{ background-color: #1662c6; 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    font:400 10 "Roboto", Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 4px;
+    color: rgb(255, 255, 255)}
+
+    .btn{ background-color: #1662c6; 
+      border: none;
+      color: rgb(255, 255, 255);
+      padding: 10px ;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      margin: 4px 2px;
+      font:500 12 "Roboto", Arial, sans-serif;
+      cursor: pointer;
+      border-radius: 4px;
+      color: rgb(255, 255, 255)}
+  
+
+
+
+      .eight-section{margin:5rem auto;}
+      .eight-section div{ max-width:520px;margin:0 auto;font-size:.875em;text-align:center;
+      }
+      .eight-section h1{font:300 30px "Work Sans", Arial, sans-serif;
+        font-size:2.1428571429em; color:#333;margin-bottom:.75em}}
+
+        .btn{display:inline-block;vertical-align:middle;position:relative;outline:0;border:0;border-radius:4px;
+          padding:17px 24px;background:#3d83df;font-family:Roboto,Arial,sans-serif;line-height:16px;
+          color:#fff;font-weight:700;letter-spacing:64px;font-size:.1200;text-align:center;
+          text-decoration:none!important;text-transform:uppercase;transition:all .2s ease 0s}
+
+          .btn:hover{color:#fff;background:#1662c6; text-decoration: none;}
+
+          .main-footer{border-top:1px solid #eef2f2;text-align:center;padding:16px 0;}
+          .main-footer p{font-size:12px;color:#ababab; margin-bottom:.64px }
